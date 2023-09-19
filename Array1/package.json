@@ -1,0 +1,27 @@
+{
+  "name": "array",
+  "version": "1.0.0",
+  "description": "",
+  "main": "classArray.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "maxConcurrency": 2,
+    "verbose": true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
